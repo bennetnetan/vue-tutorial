@@ -1,5 +1,9 @@
+<script setup>
+  import Navbar from '@/components/Navbars.vue';
+  import { RouterView } from 'vue-router';
+</script>
+
 <template>
-  <h1 class="text-center text-2xl">
-    Vue Jobs
-  </h1>
-</template>
+  <Navbar />
+  <RouterView />
+</template> 
